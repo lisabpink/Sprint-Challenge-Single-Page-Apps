@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
-// import "semantic-ui-css/semantic.min.css";
-// import Semantic from "semantic-ui-react";
+// import 'semantic-ui-less/semantic.less'
 import "./index.css";
 import App from "./App";
 
