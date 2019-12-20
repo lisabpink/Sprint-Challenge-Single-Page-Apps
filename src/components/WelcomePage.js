@@ -9,24 +9,20 @@ export default function WelcomePage() {
         <Reveal animated="rotate">
           <Reveal.Content visible>
             <Image
-            className="main-img ui "
-              circular size="large"
+              className="main-img ui "
+              circular
+              size="large"
               src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
             />
           </Reveal.Content>
           <Reveal.Content hidden>
             <Image
-            
-              circular size="large"
+              circular
+              size="large"
               src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
             />
           </Reveal.Content>
         </Reveal>
-        {/* <img
-          className="main-img ui centered medium circular image"
-          src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
-          alt="rick"
-        /> */}
       </header>
     </section>
   );

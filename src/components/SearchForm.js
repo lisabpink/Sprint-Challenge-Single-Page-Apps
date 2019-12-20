@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import {Button} from "semantic-ui-react";
+import { Button } from "semantic-ui-react";
 
-export default function SearchForm({onSearch}) {
-  const[search, setSearch] = useState({name: ""});
+export default function SearchForm({ onSearch }) {
+  const [search, setSearch] = useState({ name: "" });
   const handleInputChange = event => {
-    setSearch({...search, name: event.target.value});
+    setSearch({ ...search, name: event.target.value });
   };
 
   return (
@@ -16,10 +16,11 @@ export default function SearchForm({onSearch}) {
           value={search.name}
           name="name"
         />
-   
-        <Button content='Primary' primary type="submit">Search</Button> 
+
+        <Button content="Primary" primary type="submit">
+          Search
+        </Button>
       </form>
     </section>
   );
 }
-
